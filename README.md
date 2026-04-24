@@ -301,7 +301,7 @@ cmake --build build --config Release
 - 现状: 已提供参数入口，编码链路仍主要走软件编码。
 - 后续方向: 接入 hw device context + hw frame 流程实现真正 GPU 编码。
 
-## 10. 项目目录（当前仓库）
+## 10. 项目目录
 
 ```text
 HyperMosaic/
@@ -325,8 +325,7 @@ HyperMosaic/
 |     |- tracker_core.*
 |- models/
 |  |- haarcascade_frontalface_default.xml
-|- test/
-   |- *.mp4
+
 ```
 
 ## 11. 路线图建议
