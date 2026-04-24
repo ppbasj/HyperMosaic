@@ -1,6 +1,6 @@
 # HyperMosaic
 
-HyperMosaic 是一个基于 C++20 与 FFmpeg 的命令行视频脱敏工具，面向人脸或车牌场景进行自动追踪与马赛克渲染，并输出处理后视频。目前仅实现人脸识别。
+HyperMosaic 是一个基于 C++ 与 FFmpeg 的命令行视频脱敏工具，面向人脸或车牌场景进行自动追踪与马赛克渲染，并输出处理后视频。目前仅实现人脸识别。
 
 项目当前聚焦于 Windows 10/11 + MSVC + CMake 工作流，已实现 Demux -> Decode -> Track/Render -> Encode 四级流水线。
 
